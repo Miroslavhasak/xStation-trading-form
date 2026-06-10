@@ -1,0 +1,5 @@
+{
+  "name": "iteria-storybook",
+  "buildCommand": "DISABLE_ESLINT_PLUGIN=true TSC_COMPILE_ON_ERROR=true storybook build",
+  "outputDirectory": "storybook-static"
+}
