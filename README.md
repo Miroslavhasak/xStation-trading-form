@@ -20,15 +20,16 @@ Projekt je organizovaný do modulárnej štruktúry s jasne oddeleným vstupným
 ## 3. Dátový Model
 Aplikácia pracuje s jedným hlavným typom dát reprezentujúcim tradingový pokyn, ktorý je striktne typovaný pomocou TypeScript interface:
 
-typescript
+```typescript
 interface TradingOrder {
-  id: string         // Unikátny identifikátor
-  ticker: string     // Ticker symbol akcie
-  quantity: number   // Celé číslo reprezentujúce množstvo nakúpených kusov
-  limitPrice: number // Desatinné číslo určujúce limitnú nákupnú cenu v USD
-  status: string     // Stav pokynu (predvolene nastavený na 'PENDING')
-  createdAt: string  // Dátum a čas vytvorenia pokynu formátovaný pre sk lokalizáciu
+  id: string         // Unikátny identifikátor  
+  ticker: string     // Ticker symbol akcie  
+  quantity: number   // Celé číslo reprezentujúce množstvo nakúpených kusov  
+  limitPrice: number // Desatinné číslo určujúce limitnú nákupnú cenu v USD  
+  status: string     // Stav pokynu (predvolene nastavený na 'PENDING')  
+  createdAt: string  // Dátum a čas vytvorenia pokynu formátovaný pre sk lokalizáciu  
 }
+```
 ---
 
 ## 4. Funkčná Špecifikácia
