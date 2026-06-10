@@ -29,10 +29,6 @@ interface TradingOrder {
   status: string     // Stav pokynu (predvolene nastavený na 'PENDING')
   createdAt: string  // Dátum a čas vytvorenia pokynu formátovaný pre sk lokalizáciu
 }
-
-http://googleusercontent.com/immersive_entry_chip/0
-http://googleusercontent.com/immersive_entry_chip/1
-http://googleusercontent.com/immersive_entry_chip/2
 ---
 
 ## 4. Funkčná Špecifikácia
