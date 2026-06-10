@@ -1,0 +1,44 @@
+{
+  "name": "trading-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.0.1",
+    "@mui/material": "^9.0.1",
+    "@neondatabase/serverless": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "DISABLE_ESLINT_PLUGIN=true TSC_COMPILE_ON_ERROR=true storybook build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.4.3",
+    "@storybook/addon-docs": "^10.4.3",
+    "@storybook/preset-create-react-app": "^10.4.3",
+    "@storybook/react-webpack5": "^10.4.3",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "prop-types": "^15.8.1",
+    "storybook": "^10.4.3",
+    "webpack": "^5.107.2"
+  }
+}
