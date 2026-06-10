@@ -59,3 +59,11 @@ Pre lokálny vývoj a spustenie aplikácie na adrese `http://localhost:3000/` sl
 Inštalácia všetkých potrebných balíčkov a typových definícií:
 bash
 npm install
+
+---
+
+## 7. Linky
+
+https://iteria-hazel.vercel.app/
+
+https://iteria-storybook.vercel.app
