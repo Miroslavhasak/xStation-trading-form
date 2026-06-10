@@ -7,10 +7,7 @@
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^9.0.1",
     "@mui/material": "^9.0.1",
-<<<<<<< HEAD
     "@neondatabase/serverless": "^1.1.0",
-=======
->>>>>>> de8e149c05c5746aeb8f332529654fd1dceee462
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -34,7 +31,6 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@storybook/addon-a11y": "^10.4.3",
     "@storybook/addon-docs": "^10.4.3",
     "@storybook/preset-create-react-app": "^10.4.3",
@@ -44,16 +40,5 @@
     "prop-types": "^15.8.1",
     "storybook": "^10.4.3",
     "webpack": "^5.107.2"
-=======
-    "@types/react": "^19.2.16",
-    "@types/react-dom": "^19.2.3",
-    "storybook": "^10.4.3",
-    "@storybook/react-webpack5": "^10.4.3",
-    "@storybook/preset-create-react-app": "^10.4.3",
-    "@storybook/addon-a11y": "^10.4.3",
-    "@storybook/addon-docs": "^10.4.3",
-    "webpack": "^5.107.2",
-    "prop-types": "^15.8.1"
->>>>>>> de8e149c05c5746aeb8f332529654fd1dceee462
   }
 }
