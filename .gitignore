@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 .vercel
 node_modules
 .DS_Store
 dist
 build
 .env
+=======
+.vercel
+>>>>>>> de8e149c05c5746aeb8f332529654fd1dceee462
 
 *storybook.log
 storybook-static

@@ -1,0 +1,44 @@
+[10:39:50.882] [INFO] storybook v10.4.3
+[10:39:51.104] [DEBUG] Command "yarn.cmd" not found, trying next variation...
+[10:39:51.152] [DEBUG] Command "yarn.exe" not found, trying next variation...
+[10:39:51.200] [DEBUG] Command "yarn.ps1" not found, trying next variation...
+[10:39:51.293] [DEBUG] Command "pnpm.cmd" not found, trying next variation...
+[10:39:51.341] [DEBUG] Command "pnpm.exe" not found, trying next variation...
+[10:39:51.390] [DEBUG] Command "pnpm.ps1" not found, trying next variation...
+[10:39:51.712] [DEBUG] Getting package.json info for C:/Users/miroh/Desktop/iteria/package.json...
+[10:39:51.749] [WARN] Could not resolve addon "@storybook/addon-onboarding", skipping. Is it installed?
+[10:39:51.756] [WARN] Could not resolve addon "@storybook/addon-essentials", skipping. Is it installed?
+[10:39:51.762] [WARN] Could not resolve addon "@storybook/addon-chromatic", skipping. Is it installed?
+[10:39:51.769] [WARN] Could not resolve addon "@storybook/addon-interactions", skipping. Is it installed?
+[10:39:52.132] [WARN] Could not resolve addon "@storybook/addon-onboarding", skipping. Is it installed?
+[10:39:52.132] [WARN] Could not resolve addon "@storybook/addon-essentials", skipping. Is it installed?
+[10:39:52.133] [WARN] Could not resolve addon "@storybook/addon-chromatic", skipping. Is it installed?
+[10:39:52.133] [WARN] Could not resolve addon "@storybook/addon-interactions", skipping. Is it installed?
+[10:39:52.443] [INFO] Starting...
+[10:39:52.630] [DEBUG] Starting preview..
+[10:39:52.639] [INFO] Loading Webpack configuration from `node_modules\react-scripts`
+[10:39:52.639] [INFO] Removing existing JavaScript and TypeScript rules.
+[10:39:53.638] [INFO] Modifying Create React App rules.
+[10:39:53.654] [INFO] Using default Webpack5 setup
+[10:39:54.525] [DEBUG] Using tsconfig paths for react-docgen
+[10:39:56.897] [ERROR] Failed to build the preview
+[10:39:56.899] [WARN] Force closed preview build
+[10:39:56.901] [ERROR] [38;2;241;97;97mSB_BUILDER-WEBPACK5_0003 (WebpackCompilationError): There were problems when compiling your code with Webpack.
+Run Storybook with --debug-webpack for more information.[39m
+    at starter (file:///C:/Users/miroh/Desktop/iteria/node_modules/@storybook/builder-webpack5/dist/index.js:857:11)
+    at starter.next (<anonymous>)
+    at Module.start (file:///C:/Users/miroh/Desktop/iteria/node_modules/@storybook/builder-webpack5/dist/index.js:915:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async storybookDevServer (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/core-server/index.js:11496:158)
+    at async buildOrThrow (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/core-server/index.js:8205:12)
+    at async buildDevStandalone (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/core-server/index.js:12057:41)
+    at async withTelemetry (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/_node-chunks/chunk-ZQ5NLTS2.js:655:12)
+    at async dev (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/bin/core.js:2735:3)
+    at async _Command.<anonymous> (file:///C:/Users/miroh/Desktop/iteria/node_modules/storybook/dist/bin/core.js:2805:92)
+[10:39:56.903] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[10:39:56.906] [WARN] Could not resolve addon "@storybook/addon-onboarding", skipping. Is it installed?
+[10:39:56.906] [WARN] Could not resolve addon "@storybook/addon-essentials", skipping. Is it installed?
+[10:39:56.906] [WARN] Could not resolve addon "@storybook/addon-chromatic", skipping. Is it installed?
+[10:39:56.907] [WARN] Could not resolve addon "@storybook/addon-interactions", skipping. Is it installed?
+[10:40:17.540] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":false}
